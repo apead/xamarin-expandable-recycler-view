@@ -1,0 +1,19 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <attr path="/api/package[@name='com.thoughtbot.expandablerecyclerview.listeners']/interface[@name='ExpandCollapseListener']/method[@name='onGroupExpanded']/parameter[1]" name="managedName">positionStart</attr>
+  <attr path="/api/package[@name='com.thoughtbot.expandablerecyclerview.listeners']/interface[@name='ExpandCollapseListener']/method[@name='onGroupExpanded']/parameter[2]" name="managedName">itemCount</attr>
+  <attr path="/api/package[@name='com.thoughtbot.expandablerecyclerview.listeners']/interface[@name='ExpandCollapseListener']/method[@name='onGroupCollapsed']/parameter[1]" name="managedName">positionStart</attr>
+  <attr path="/api/package[@name='com.thoughtbot.expandablerecyclerview.listeners']/interface[@name='ExpandCollapseListener']/method[@name='onGroupCollapsed']/parameter[2]" name="managedName">itemCount</attr>
+
+  <attr path="/api/package[@name='com.thoughtbot.expandablerecyclerview.listeners']/interface[@name='GroupExpandCollapseListener']/method[@name='onGroupExpanded']/parameter[1]" name="managedName">group</attr>
+  <attr path="/api/package[@name='com.thoughtbot.expandablerecyclerview.listeners']/interface[@name='GroupExpandCollapseListener']/method[@name='onGroupCollapsed']/parameter[1]" name="managedName">group</attr>
+
+  <attr path="/api/package[@name='com.thoughtbot.expandablerecyclerview.listeners']/interface[@name='OnGroupClickListener']/method[@name='onGroupClick']/parameter[1]" name="managedName">flatPosition</attr>
+</metadata>
