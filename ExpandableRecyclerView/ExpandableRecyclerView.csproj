@@ -10,7 +10,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ExpandableRecyclerViewBindings</RootNamespace>
-    <AssemblyName>expandablerecyclerviewbindings</AssemblyName>
+    <AssemblyName>ExpandableRecyclerViewBindings</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
